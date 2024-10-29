@@ -1,0 +1,9 @@
+{
+  "full_name": "Your name: Firstname Lastname",
+  "email": "Your mail address",
+  "project_name": "project-name",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Short description of your project.",
+  "version": "0.1.0",
+  "git_init": "y"
+}
